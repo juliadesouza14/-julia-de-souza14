@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agro Forte - Futuro Sustentável</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#eef7ea;
+color:#333;
+}
+
+header{
+background:linear-gradient(90deg,#1b5e20,#4caf50);
+color:white;
+padding:30px;
+text-align:center;
+}
+
+header h1{
+font-size:42px;
+}
+
+nav{
+background:#2e7d32;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+nav a{
+color:white;
+padding:18px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+nav a:hover{
+background:#66bb6a;
+}
+
+section{
+padding:50px;
+}
+
+.hero{
+text-align:center;
+}
+
+.hero img{
+width:90%;
+max-width:900px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,.3);
+margin-top:20px;
+}
+
+h2{
+color:#2e7d32;
+margin-bottom:20px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 0 10px rgba(0,0,0,.2);
+transition:.3s;
+}
+
+.card:hover{
+transform:scale(1.03);
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:10px;
+}
+
+button{
+margin-top:15px;
+padding:12px 25px;
+background:#2e7d32;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+background:#1b5e20;
+}
+
+footer{
+background:#1b5e20;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+</style>
+
+<script>
+
+function mensagem(texto){
+alert(texto);
+}
+
+</script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🌱 Agro Forte</h1>
+
+<h2>Futuro Sustentável e Equilíbrio entre Produção e Meio Ambiente</h2>
+
+<p>Produzir mais, preservar sempre e garantir alimentos para as próximas gerações.</p>
+
+</header>
+
+<nav>
+
+<a href="#inicio">Início</a>
+
+<a href="#agro">O Agro</a>
+
+<a href="#sustentabilidade">Sustentabilidade</a>
+
+<a href="#tecnologia">Tecnologia</a>
+
+<a href="#beneficios">Benefícios</a>
+
+<a href="#contato">Contato</a>
+
+</nav>
+
+<section class="hero" id="inicio">
+
+<h2>O Campo Alimenta o Mundo</h2>
+
+<p>
+
+O agronegócio é responsável pela produção de alimentos, fibras e energia.
+
+Quando aliado às práticas sustentáveis, torna-se um dos principais motores do desenvolvimento econômico e da preservação ambiental.
+
+</p>
+
+<img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1200" alt="Campo">
+
+<br><br>
+
+<button onclick="mensagem('Bem-vindo ao Agro Forte!')">Explorar o Site</button>
+
+</section>
+
+<section id="agro">
+
+<h2>🌾 O Agro Forte</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800">
+
+<h3>Produção de Alimentos</h3>
+
+<p>
+
+O agronegócio fornece alimentos para bilhões de pessoas e movimenta grande parte da economia mundial.
+
+</p>
+
+<button onclick="mensagem('A produção agrícola cresce com tecnologia e sustentabilidade.')">
+
+Saiba Mais
+
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=800">
+
+<h3>Preservação Ambiental</h3>
+
+<p>
+
+Áreas de preservação, reflorestamento e conservação da biodiversidade garantem equilíbrio ecológico.
+
+</p>
+
+<button onclick="mensagem('Produzir e preservar podem caminhar juntos.')">
+
+Conhecer
+
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800">
+
+<h3>Economia</h3>
+
+<p>
+
+O setor gera empregos, fortalece exportações e impulsiona o crescimento do país.
+
+</p>
+
+<button onclick="mensagem('O agronegócio é um dos pilares da economia brasileira.')">
+
+Ver Dados
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="sustentabilidade">
+
+<h2>🌳 Sustentabilidade</h2>
+
+<p>
+
+A agricultura sustentável utiliza recursos naturais de maneira responsável.
+
+Entre as principais práticas estão:
+
+</p>
+
+<ul>
+
+<li>✅ Plantio direto</li>
+
+<li>✅ Rotação de culturas</li>
+
+<li>✅ Irrigação inteligente</li>
+
+<li>✅ Recuperação de áreas degradadas</li>
+
+<li>✅ Uso racional da água</li>
+
+<li>✅ Energia renovável</li>
+
+<li>✅ Proteção das nascentes</li>
+
+<li>✅ Preservação das matas ciliares</li>
+
+</ul>
+
+<br>
+
+<img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?w=1200" width="100%" style="border-radius:12px;">
+
+<br><br>
+
+<button onclick="mensagem('A sustentabilidade garante alimentos para hoje e para o futuro.')">
+
+Descobrir Mais
+
+</button>
+
+</section>
+
+<section id="tecnologia">
+
+<h2>🚜 Tecnologia no Campo</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?w=800">
+
+<h3>Drones</h3>
+
+<p>
+
+Monitoram plantações, identificam pragas e reduzem desperdícios.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800">
+
+<h3>Agricultura de Precisão</h3>
+
+<p>
+
+Uso de GPS, sensores e inteligência artificial para aumentar a produtividade.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1492496913980-501348b61469?w=800">
+
+<h3>Energia Limpa</h3>
+
+<p>
+
+Painéis solares e biodigestores reduzem impactos ambientais.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="beneficios">
+
+<h2>🌎 Benefícios do Agro Sustentável</h2>
+
+<p>
+
+✔ Produção eficiente
+
+<br><br>
+
+✔ Preservação das florestas
+
+<br><br>
+
+✔ Menor emissão de carbono
+
+<br><br>
+
+✔ Economia fortalecida
+
+<br><br>
+
+✔ Segurança alimentar
+
+<br><br>
+
+✔ Conservação da biodiversidade
+
+<br><br>
+
+✔ Uso consciente dos recursos naturais
+
+</p>
+
+<br>
+
+<button onclick="window.scrollTo(0,0)">
+
+⬆ Voltar ao Topo
+
+</button>
+
+</section>
+
+<section id="contato">
+
+<h2>📩 Contato</h2>
+
+<p>
+
+Nome:
+
+</p>
+
+<input style="width:100%;padding:10px;margin:10px 0;">
+
+<p>Email:</p>
+
+<input style="width:100%;padding:10px;margin:10px 0;">
+
+<p>Mensagem:</p>
+
+<textarea style="width:100%;height:150px;padding:10px;"></textarea>
+
+<br><br>
+
+<button onclick="mensagem('Mensagem enviada com sucesso!')">
+
+Enviar
+
+</button>
+
+</section>
+
+<footer>
+
+<h3>🌱 Agro Forte</h3>
+
+<p>
+
+Futuro Sustentável • Equilíbrio entre Produção e Meio Ambiente
+
+</p>
+
+<p>
+
+Projeto Educacional - 2026
+
+</p>
+
+</footer>
+
+</body>
+</html>
